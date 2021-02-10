@@ -7,6 +7,14 @@ body {
     padding: 0;
 }
 
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+
 iframe {
     justify-self: center;
     align-self: center;

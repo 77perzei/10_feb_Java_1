@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+        function updateParagraph() {
+            document.getElementById("title").innerHTML = "The text just got updated !! "
+        }
+
+        function getRandomNumber() {
+            document.getElementById('number').innerHTML = Math.random()
+        }
+    </script>
+<body id="body">
+    <h1 id="title">The power of Javascript</h1>
+    <h1 id="name" style="display: none;">Per</h1>
+    <h1 id="number" onclick="getRandomNumber()">click on me for arandom number</h1>
+
+<img id="lightsoff" src="/icons/email.png">
+<button onclick="document.getElementById('lightsoff').src='icons/email.png'">Mail_icon</button>
+<button onclick="document.getElementById('lightsoff').src='icons/twitter.png'">Twitter_icon</button>
+<button onclick="document.getElementById('title').style.fontSize='80px'">Stor</button>
+<button onclick="document.getElementById('title').style.fontSize='20px'">Liten</button>
+<button onclick="document.getElementById('body').style.backgroundColor='green'">Grön bakgrunsfärg</button>
+<button onclick="document.getElementById('body').style.backgroundColor='white'">Vit bakgrunsfärg</button>
+<button onclick="document.getElementById('body').style.display='none'">Remove All</button>
+<button onclick="document.getElementById('name').style.display='block'">Visa namn</button>
+<button onclick="document.getElementById('name').style.display='none'">Ta bort namn</button>
+<button onclick="updateParagraph()">Update text value</button>
+</body>
+</html>
