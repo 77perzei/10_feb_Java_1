@@ -15,10 +15,20 @@
             document.getElementById('number').innerHTML = Math.random()
         }
         function displayCalculation() {
-            document.getElementById('elite').innerHTML = 34 * 33 * 3 * 3 * 3 * 3
+            document.getElementById('elite').innerHTML = 1337 * Math.random()
         }
+        
+        function getPopupWindow() {
+            alert('Welcome to my Website')
+        }
+
+
+
     </script>
 <body id="body">
+    <button onclick="console.log('This is how the console log works')">Console.log</button>
+    <button onclick="window.print()">Print this page</button>
+    <h1 onclick="getPopupWindow()">Display Alert !</h1>
     <h1 id="elite" onclick="displayCalculation()">1337</h1>
     <h1 id="title">The power of Javascript</h1>
     <h1 id="name" style="display: none;">Per</h1>
