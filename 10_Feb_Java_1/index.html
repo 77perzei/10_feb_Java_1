@@ -14,8 +14,12 @@
         function getRandomNumber() {
             document.getElementById('number').innerHTML = Math.random()
         }
+        function displayCalculation() {
+            document.getElementById('elite').innerHTML = 34 * 33 * 3 * 3 * 3 * 3
+        }
     </script>
 <body id="body">
+    <h1 id="elite" onclick="displayCalculation()">1337</h1>
     <h1 id="title">The power of Javascript</h1>
     <h1 id="name" style="display: none;">Per</h1>
     <h1 id="number" onclick="getRandomNumber()">click on me for arandom number</h1>
