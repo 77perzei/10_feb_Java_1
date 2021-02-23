@@ -1,4 +1,4 @@
-const addValue = 5 + 5 //Addera
+/* const addValue = 5 + 5 //Addera
 const removeValue = 10 - 5 //Subtrahera
 const divide = 5 / 5 //Dividera
 const multiplication = 10 * 10 //Multiplicera
@@ -11,7 +11,7 @@ const root = Math.sqrt(64) //Roten ur värdet
 
 
 
-
+ */
 // Komentera ut ett stycke med 'shift+Alt+A'//
 
 /* 
